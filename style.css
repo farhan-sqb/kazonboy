@@ -1,0 +1,26 @@
+header {
+background-color: black;
+color: white;
+text-align: center;
+}
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+body > div {
+    border:1px solid white;
+}
+#staderheader > div {
+    display:none;
+}
+#staderheader > div > div {
+    display:none;
+    border:1px solid white;
+}
+#besoktastader{
+    display:none;
+}
+.visited{
+    display:hidden;
+}

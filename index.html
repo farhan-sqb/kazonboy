@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inlämning: Städer och länder (Robin Karlsson)</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <label for="land">Välj ett land:</label>
+    <select name="land" id="land" onchange=toggleCityDivs();>
+      <option value="empty">Klicka här</option>
+    </select><br><br>
+    <button onclick=togglebesoktastader(); id="buttonBesoktaStader">Städer jag besökt</button>
+    <br><br>
+    <div id="stadbox">
+    <div id="staderheader"></div>
+     </select>
+    </div>
+</header>
+<body>
+    <div id="besoktastader">
+    
+    <h2>Besökta städer sedan tidigare</h2>
+    <button onclick=minimerabesoktastader();>Minimera 'Besökta städer sedan tidigare'</button>
+
+    </div>
+</body>
+</html>
