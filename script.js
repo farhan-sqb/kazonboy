@@ -3,9 +3,10 @@ let towns = [];
 
 const fetchExternalData = async () => {
     const results = await Promise.all([
-        fetch('https://github.com/niborium/testfiles/blob/master/land.json'),
-        fetch('https://github.com/niborium/testfiles/blob/master/stad.json')
+        fetch('land.json'),
+        fetch('stad.json')
     ]);
+	
     return await Promise.all(results.map(result => result.json()));
 };
   
